@@ -19,7 +19,7 @@ Wie man daher die Maven Sites erstellt, JavaDoc etc. Haben wir alles sehr detail
 
 ### Vorbereitung 
 - [x] Übung runterladen von Git der Dozenten <br>
-- [ ] Repository erstellen, Achtung alles im root keine Unterordner <br>
+- [x] Repository erstellen, Achtung alles im root keine Unterordner <br>
 - [x] Kurzes Readme erstellen mit Infos was wir jetzt tun werden (1 Punkt)<br>
 - [x] Taskliste erstellen im read me (1P)<br>
 - [ ] Taskliste laufend abhacken und commiten (2P)<br>

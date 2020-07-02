@@ -22,7 +22,7 @@ Wie man daher die Maven Sites erstellt, JavaDoc etc. Haben wir alles sehr detail
 - [x] Repository erstellen, Achtung alles im root keine Unterordner <br>
 - [x] Kurzes Readme erstellen mit Infos was wir jetzt tun werden (1 Punkt)<br>
 - [x] Taskliste erstellen im read me (1P)<br>
-- [ ] Taskliste laufend abhacken und commiten (2P)<br>
+- [x] Taskliste laufend abhacken und commiten (2P)<br>
 - [ ] Labreport laufend schreiben (Namen aller Mitglieder, Repository das neue verlinken) <br>
 
 

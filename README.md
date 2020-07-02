@@ -23,12 +23,12 @@ Wie man daher die Maven Sites erstellt, JavaDoc etc. Haben wir alles sehr detail
 - [x] Kurzes Readme erstellen mit Infos was wir jetzt tun werden (1 Punkt)<br>
 - [x] Taskliste erstellen im read me (1P)<br>
 - [x] Taskliste laufend abhacken und commiten (2P)<br>
-- [ ] Labreport laufend schreiben (Namen aller Mitglieder, Repository das neue verlinken) <br>
+- [x] Labreport laufend schreiben (Namen aller Mitglieder, Repository das neue verlinken) <br>
 
 
 ### Git commits 
-- [ ] Zusammenarbeit committen (2P)<br>
-- [ ] Qualität der Git Messages prüfen (2P)<br>
+- [x] Zusammenarbeit committen (2P)<br>
+- [x] Qualität der Git Messages prüfen (2P)<br>
 
 ### Maven und Pom
 - [ ] Maven Build Automatisierung (Standard einhalten - target clean, validate, compile, tests, libaries runterladen)<br>

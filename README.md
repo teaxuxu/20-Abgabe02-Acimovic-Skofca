@@ -54,6 +54,9 @@ Wie man daher die Maven Sites erstellt, JavaDoc etc. Haben wir alles sehr detail
 - [ ]Code Snipped oder Grafiken verwenden <br>
 - [ ]Mögliche Einsatzgebiete von Queues, was sind Generics, Was ist ein Code Coverade bei Source Code Tests?<br>
 
+<h3>LabReport erweitern</h3>
+- [ ] ergänzungen nachtragen welche fehler und wie behoben 
+
 <p> <br>
 Welche Fehler haben wir nur gefunden?
 

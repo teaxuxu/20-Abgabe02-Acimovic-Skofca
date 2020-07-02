@@ -32,7 +32,7 @@ Wie man daher die Maven Sites erstellt, JavaDoc etc. Haben wir alles sehr detail
 
 ### Maven und Pom
 - [ ] Maven Build Automatisierung (Standard einhalten - target clean, validate, compile, tests, libaries runterladen)<br>
-- [ ] WICHTIG! Avatarbild Comic z.B. und Pom befüllen mit uns als Entwickler anderen raus löschen, jede Person soll sich selbst eintragen und Committen (1P)<br>
+- [x] WICHTIG! Avatarbild Comic z.B. und Pom befüllen mit uns als Entwickler anderen raus löschen, jede Person soll sich selbst eintragen und Committen (1P)<br>
 - [ ] Adresse des Repository (1P)<br>
 - [ ] Auch mit mvm Compiler build starten um zu prüfen ob alle geht, also auch ohne intellJ<br>
  

@@ -25,7 +25,7 @@ str_queue.add("one");
 str_queue.add( "two");
 str_queue.add("three");
 str_queue.add("four");
-//print the Queue
+//print the Queaue
 System.out.println("The Queue contents" + str_queue);
 }
 }

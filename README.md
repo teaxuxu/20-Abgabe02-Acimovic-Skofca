@@ -44,7 +44,7 @@ Wie man daher die Maven Sites erstellt, JavaDoc etc. Haben wir alles sehr detail
 ### Testen 
 - [x] Hier ist wichtig das die vorhandene Implementierung mit 100% Testabdeckung funktioniert (2P)<br>
 - [x] Dann noch eine Testklasse erstellen wo wir unsere Generics mit Strings auch mit 100% abdecken (3P)<br>
-- [ ] JavaDoc Kommentare was wir testen (1P)<br>
+- [x] JavaDoc Kommentare was wir testen (1P)<br>
 - [x] Zusätzliche Testfiles um die Generic zu testen mit einer anderen Klasse (2P)<br>
 
 ### Maven Site - Markdown Sprache 
@@ -55,7 +55,7 @@ Wie man daher die Maven Sites erstellt, JavaDoc etc. Haben wir alles sehr detail
 - [x] Mögliche Einsatzgebiete von Queues, was sind Generics, Was ist ein Code Coverade bei Source Code Tests?<br>
 
 ### LabReport erweitern
-- [ ] ergänzungen nachtragen welche fehler und wie behoben 
+- [x] ergänzungen nachtragen welche fehler und wie behoben 
 
 <p> <br>
 Welche Fehler haben wir nur gefunden?

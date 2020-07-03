@@ -36,8 +36,7 @@ System.out.println("The Queue contents" + str_queue);
 **Output:**
 
 The Queue contents: [one, two, three, four]
-<br>
-<br>
+
 ##Wie kann ich eine Queue testen
 
 <p>Die Überprüfung einer beliebigen, nicht allzu einfachen Warteschlange erfordert den Einsatz einer ganzen Gruppe von Tests. Wenn ein Knoten nur eine eingehende Verbindung hat und wir Grund zu der Annahme haben, dass diese Warteschlange von der durch diesen Knoten repräsentierten Komponente verwaltet wird, dann sollten wir es vorziehen, die in der Warteschlange befindlichen Komponenten mit Hilfe des Komponententestansatzes zu testen. Wenn es einen Zusammenführungs-, Erfassungs- oder Verbindungsknoten (mehrere eingehende Verbindungen) gibt, dann müssen wir die Warteschlange auf Komponentenebene testen und diese Tests dann während des Systemtests wiederholen. Wir wählen die Tests in Abhängigkeit von der Warteschlangendisziplin und der Server-Auswahlregel, falls vorhanden.
@@ -61,15 +60,13 @@ List<String> meineListe = new ArrayList<String> ();
 meineListe.add( new Integer(42)  ); // <-- Kompilierfehler
 String s = meineListe.get( 0 );
 ```
-<br>
-<br>
+
 
 
 ##Was ist ein code coverage bei source code tests
 
 <p>Die Codeabdeckung ist der Prozentsatz des Codes, der durch automatisierte Tests abgedeckt wird. Bei der Messung der Codeabdeckung wird einfach festgestellt, welche Anweisungen in einem Codebody durch einen Testlauf ausgeführt wurden und welche Anweisungen nicht.</p>
 
-<br>
-<br>
+
 
 ![Alt Text](https://media.giphy.com/media/cLqcNGQcQhyn4uRWzR/giphy.gif )

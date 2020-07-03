@@ -1,5 +1,5 @@
-<h1> Maven Build  </h1>
-<h2> MSD Studium - Konfigurationsmanagement Aufgabe 2/2020 </h2>
+# Maven Build  
+## MSD Studium - Konfigurationsmanagement Aufgabe 2/2020 
 
 <p>
 Bei der folgenden Aufgabenstellung handelt es sich um eine 30 Punkte Aufgabe im Fach Konfigurationsmanagement im Zuge des Mobile Software Development Studiums. Diese Aufgabe dient dazu, sich mit Maven Build Automatisierung auseinander zu setzen und die Zusammenarbeit im Team auch zu üben über Git Hub. Ebenso sollen Fehler im Code behandelt werden und tests erstellt werden. 
@@ -15,46 +15,46 @@ Wie man daher die Maven Sites erstellt, JavaDoc etc. Haben wir alles sehr detail
 </p>
 
 
-<h2> Unsere Taskliste Schritt für Schritt:</h2>
+## Unsere Taskliste Schritt für Schritt:
 
-<h3>Vorbereitung  </h3>
-- [x ] Übung runterladen von Git der Dozenten <br>
-- [ ] Repository erstellen, Achtung alles im root keine Unterordner <br>
+### Vorbereitung 
+- [x] Übung runterladen von Git der Dozenten <br>
+- [x] Repository erstellen, Achtung alles im root keine Unterordner <br>
 - [x] Kurzes Readme erstellen mit Infos was wir jetzt tun werden (1 Punkt)<br>
 - [x] Taskliste erstellen im read me (1P)<br>
-- [ ] Taskliste laufend abhacken und commiten (2P)<br>
-- [ ] Labreport laufend schreiben (Namen aller Mitglieder, Repository das neue verlinken) <br>
+- [x] Taskliste laufend abhacken und commiten (2P)<br>
+- [x] Labreport laufend schreiben (Namen aller Mitglieder, Repository das neue verlinken) <br>
 
 
-<h3>Git commits </h3>
-- [ ] Zusammenarbeit committen (2P)<br>
-- [ ] Qualität der Git Messages prüfen (2P)<br>
+### Git commits 
+- [x] Zusammenarbeit committen (2P)<br>
+- [x] Qualität der Git Messages prüfen (2P)<br>
 
-<h3>Maven und Pom </h3>
-- [ ]Maven Build Automatisierung (Standard einhalten - target clean, validate, compile, tests, libaries runterladen)<br>
-- [ ]WICHTIG! Avatarbild Comic z.B. und Pom befüllen mit uns als Entwickler anderen raus löschen, jede Person soll sich selbst eintragen und Committen (1P)<br>
-- [ ]Adresse des Repository (1P)<br>
-- [ ]Auch mit mvm Compiler build starten um zu prüfen ob alle geht, also auch ohne intellJ<br>
+### Maven und Pom
+- [ ] Maven Build Automatisierung (Standard einhalten - target clean, validate, compile, tests, libaries runterladen)<br>
+- [x] WICHTIG! Avatarbild Comic z.B. und Pom befüllen mit uns als Entwickler anderen raus löschen, jede Person soll sich selbst eintragen und Committen (1P)<br>
+- [ ] Adresse des Repository (1P)<br>
+- [ ] Auch mit mvm Compiler build starten um zu prüfen ob alle geht, also auch ohne intellJ<br>
  
-<h3>Fehler finden </h3>
-- [ ]Selbst implementieren: eine neue Implementierung die mit unterschiedlichen Klassen/Datentypen funktioniert also Generics dafür verwenden. <br>
-- [ ]Wir dürfen den Code auch wiederverwenden von den Dozenten nur wirklich separate Datei dafür nutzen und nicht vorhandene löschen also neue Klasse (2,5P) <br>
-- [ ]Code dabei immer nachvollziehbar kommentieren - JavaDoc <br>
+### Fehler finden
+- [ ] Selbst implementieren: eine neue Implementierung die mit unterschiedlichen Klassen/Datentypen funktioniert also Generics dafür verwenden. <br>
+- [ ] Wir dürfen den Code auch wiederverwenden von den Dozenten nur wirklich separate Datei dafür nutzen und nicht vorhandene löschen also neue Klasse (2,5P) <br>
+- [ ] Code dabei immer nachvollziehbar kommentieren - JavaDoc <br>
 
-<h3>Testen </h3>
-- [ ]Hier ist wichtig das die vorhandene Implementierung mit 100% Testabdeckung funktioniert (2P)<br>
-- [ ]Dann noch eine Testklasse erstellen wo wir unsere Generics mit Strings auch mit 100% abdecken (3P)<br>
-- [ ]JavaDoc Kommentare was wir testen (1P)<br>
-- [ ]Zusätzliche Testfiles um die Generic zu testen mit einer anderen Klasse (2P)<br>
+### Testen 
+- [ ] Hier ist wichtig das die vorhandene Implementierung mit 100% Testabdeckung funktioniert (2P)<br>
+- [ ] Dann noch eine Testklasse erstellen wo wir unsere Generics mit Strings auch mit 100% abdecken (3P)<br>
+- [ ] JavaDoc Kommentare was wir testen (1P)<br>
+- [ ] Zusätzliche Testfiles um die Generic zu testen mit einer anderen Klasse (2P)<br>
 
-<h3>Maven Site - Markdown Sprache </h3>
-- [ ]Entwickler Infos <br>
-- [ ]JavaDoc als Maven Site Exortieren (1P)<br>
-- [ ]Manuell erstelle Inhalte aus als Site exportieren (was ist eine Queue und wie kann die getestet werden) <br>
-- [ ]Code Snipped oder Grafiken verwenden <br>
-- [ ]Mögliche Einsatzgebiete von Queues, was sind Generics, Was ist ein Code Coverade bei Source Code Tests?<br>
+### Maven Site - Markdown Sprache 
+- [ ] Entwickler Infos <br>
+- [ ] JavaDoc als Maven Site Exortieren (1P)<br>
+- [ ] Manuell erstelle Inhalte aus als Site exportieren (was ist eine Queue und wie kann die getestet werden) <br>
+- [ ] Code Snipped oder Grafiken verwenden <br>
+- [ ] Mögliche Einsatzgebiete von Queues, was sind Generics, Was ist ein Code Coverade bei Source Code Tests?<br>
 
-<h3>LabReport erweitern</h3>
+### LabReport erweitern
 - [ ] ergänzungen nachtragen welche fehler und wie behoben 
 
 <p> <br>

@@ -8,17 +8,17 @@ import java.util.NoSuchElementException;
 // there are different Bugs, wrong implementation, typos, ...
 // write Test-Cases (read Queue Interface for understanding methods) and use Debugging possibilies of your IDE
 
-public class StringQueue implements IQueue<String> {
+public class GenericQueue<T> implements IQueue<T> {
 
-  private List<String> elements = new ArrayList<String>();
+  private List<T> elements = new ArrayList<T>();
   private int maxSize = 5;
 
-  public StringQueue(int maxsize) {
+  public GenericQueue(int maxsize) {
     maxSize = maxsize;
   }
 
   @Override
-  public boolean offer(String obj) {
+  public boolean offer(T obj) {
     if (elements.size() != maxSize)
       elements.add(obj);
     else
@@ -28,8 +28,8 @@ public class StringQueue implements IQueue<String> {
   }
 
   @Override
-  public String poll() {
-    String element = peek();
+  public T poll() {
+    T element = peek();
 
     if (elements.size() != 0) {
       elements.remove(0);
@@ -39,8 +39,8 @@ public class StringQueue implements IQueue<String> {
   }
 
   @Override
-  public String remove() {
-    String element = poll();
+  public T remove() {
+    T element = poll();
     if (element == null)
       throw new NoSuchElementException("there's no element any more");
 
@@ -48,8 +48,8 @@ public class StringQueue implements IQueue<String> {
   }
 
   @Override
-  public String peek() {
-    String element;
+  public T peek() {
+    T element;
     if (elements.size() > 0)
       element = elements.get(0);
     else
@@ -59,8 +59,8 @@ public class StringQueue implements IQueue<String> {
   }
 
   @Override
-  public String element() {
-    String element = peek();
+  public T element() {
+    T element = peek();
     if (element == null)
       throw new NoSuchElementException("there's no element any more");
 

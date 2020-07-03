@@ -20,7 +20,10 @@
 
         <menu name="Projekt">
             <item name="Introduction" href="index.html"/>
-            <item name="API Documentation" href="index.html"/>
+            <!--
+            <item name="API Documentation" href="apidocs/at/fhj/iit/package-summary.html"/>
+            -->
+            <item name="API Documentation" href="apidocs/at/fhj/iit/package-summary.html"/>
 
         </menu>
 

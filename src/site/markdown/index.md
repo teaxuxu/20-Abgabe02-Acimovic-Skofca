@@ -12,21 +12,21 @@ Eine Warteschlange (Queue) verwaltet eine Folge von Objekten, wobei man immer Ob
 
 Source: http://www.inf.fu-berlin.de/lehre/SS10/infb/queues.pdf
 
-```javascript
+```java
 import java.util.*;
 
 public class Main {
-public static void main(String[] args) {
-//declare a Queue
-Queue<String> str_queue = new LinkedList<>();
-//initialize the queue with values
-str_queue.add("one");
-str_queue.add( "two");
-str_queue.add("three");
-str_queue.add("four");
-//print the Queaue
-System.out.println("The Queue contents" + str_queue);
-}
+    public static void main(String[] args) {
+        //declare a Queue
+        Queue<String> str_queue = new LinkedList<>();
+        //initialize the queue with values
+        str_queue.add("one");
+        str_queue.add( "two");
+        str_queue.add("three");
+        str_queue.add("four");
+        //print the Queue
+        System.out.println("The Queue contents" + str_queue);
+    }
 }
 ```
 

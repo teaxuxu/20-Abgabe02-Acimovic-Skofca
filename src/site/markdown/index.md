@@ -1,6 +1,6 @@
 
 
-##Was ist eine Queue<h>
+##Was ist eine Queue
 Eine Warteschlange (Queue) verwaltet eine Folge von Objekten, wobei man immer Objekte (an das Ende) anfügen kann und zu jedem Zeitpunkt das Objekt löschen kann, welches (von den vorhandenen) als erstes eingefügt wurde.
 
 **Typische Anwendungen für Warteschlangen in der Informatik sind:**
@@ -38,13 +38,13 @@ System.out.println("The Queue contents" + str_queue);
 The Queue contents: [one, two, three, four]
 <br>
 <br>
-##Wie kann ich eine Queue testen<h>
+##Wie kann ich eine Queue testen
 
 <p>Die Überprüfung einer beliebigen, nicht allzu einfachen Warteschlange erfordert den Einsatz einer ganzen Gruppe von Tests. Wenn ein Knoten nur eine eingehende Verbindung hat und wir Grund zu der Annahme haben, dass diese Warteschlange von der durch diesen Knoten repräsentierten Komponente verwaltet wird, dann sollten wir es vorziehen, die in der Warteschlange befindlichen Komponenten mit Hilfe des Komponententestansatzes zu testen. Wenn es einen Zusammenführungs-, Erfassungs- oder Verbindungsknoten (mehrere eingehende Verbindungen) gibt, dann müssen wir die Warteschlange auf Komponentenebene testen und diese Tests dann während des Systemtests wiederholen. Wir wählen die Tests in Abhängigkeit von der Warteschlangendisziplin und der Server-Auswahlregel, falls vorhanden.
 Source: https://testmatick.com/queue-testing/</p>
 
 
-##Was sind Generics<h>
+##Was sind Generics
 
 <p>Generics wurden mit der Version 1.5 in Java eingeführt, um den Umgang mit polymorphen Datenstrukturen zu verbessern.
 Mit generischen Java-Methoden und generischen Klassen können Programmierer mit einer einzigen Methoden-Deklaration eine Reihe von verwandten Methoden bzw. mit einer einzigen Klassen-Deklaration eine Reihe von verwandten Typen angeben.
@@ -65,7 +65,7 @@ String s = meineListe.get( 0 );
 <br>
 
 
-##Was ist ein code coverage bei source code tests<h>
+##Was ist ein code coverage bei source code tests
 
 <p>Die Codeabdeckung ist der Prozentsatz des Codes, der durch automatisierte Tests abgedeckt wird. Bei der Messung der Codeabdeckung wird einfach festgestellt, welche Anweisungen in einem Codebody durch einen Testlauf ausgeführt wurden und welche Anweisungen nicht.</p>
 

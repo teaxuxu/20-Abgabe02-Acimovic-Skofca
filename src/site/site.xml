@@ -20,6 +20,7 @@
 
         <menu name="Projekt">
             <item name="Introduction" href="index.html"/>
+            <item name="API Documentation" href="index.html"/>
 
         </menu>
 

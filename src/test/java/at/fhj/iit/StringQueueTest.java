@@ -8,7 +8,9 @@ import org.junit.jupiter.api.Test;
 import java.util.NoSuchElementException;
 
 class StringQueueTest {
-
+    /**
+     * tests if can add and poll queue
+     */
     @Test
     void testCanAddAndPollQueue() {
         IQueue queue = new StringQueue(10);
@@ -16,7 +18,9 @@ class StringQueueTest {
         assertEquals("hello", queue.peek());
         assertEquals("hello", queue.poll());
     }
-
+    /**
+     * tests if can reject to many elements
+     */
     @Test
     void testCanRejectToManyElements() {
         IQueue queue = new StringQueue(2);
@@ -25,7 +29,9 @@ class StringQueueTest {
         assertEquals(false, queue.offer("3"));
     }
 
-
+    /**
+     * tests if can poll queue with two elements
+     */
     @Test
     void testCanPollQueueWithTwoElements() {
         IQueue queue = new StringQueue(10);
@@ -35,19 +41,27 @@ class StringQueueTest {
         assertEquals("world", queue.poll());
     }
 
-
+    /**
+     * tests if can poll empty queue
+     */
     @Test
     void testCanPollEmptyQueue() {
         IQueue queue = new StringQueue(10);
         assertEquals(null, queue.poll());
     }
 
+    /**
+     * tests if can peek empty queue
+     */
     @Test
     void testCanPeekEmptyQueue() {
         IQueue queue = new StringQueue(10);
         assertEquals(null, queue.peek());
     }
 
+    /**
+     * tests if can get element from single queue
+     */
     @Test
     void testCanGetElementFromSingleQueue() {
         IQueue queue = new StringQueue(10);
@@ -55,6 +69,9 @@ class StringQueueTest {
         assertEquals("hello", queue.element());
         assertEquals("hello", queue.element());
     }
+    /**
+     * tests fails to get element from empty queue
+     */
     @Test
     void testFailsToGetElementFromEmptyQueue() {
         IQueue queue = new StringQueue(10);
@@ -64,6 +81,9 @@ class StringQueueTest {
         });
     }
 
+    /**
+     * tests if can get element from double queue
+     */
     @Test
     void testCanGetElementFromDoubleQueue() {
         IQueue queue = new StringQueue(10);
@@ -73,6 +93,9 @@ class StringQueueTest {
         assertEquals("hello", queue.element());
     }
 
+    /**
+     * tests fails to remove element from empty queue
+     */
     @Test
     void testFailsToRemoveElementFromEmptyQueue() {
         IQueue queue = new StringQueue(10);

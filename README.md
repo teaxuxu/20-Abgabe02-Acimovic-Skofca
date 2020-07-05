@@ -31,37 +31,48 @@ Wie man daher die Maven Sites erstellt, JavaDoc etc. Haben wir alles sehr detail
 - [x] Qualität der Git Messages prüfen (2P)<br>
 
 ### Maven und Pom
-- [ ] Maven Build Automatisierung (Standard einhalten - target clean, validate, compile, tests, libaries runterladen)<br>
+- [x] Maven Build Automatisierung (Standard einhalten - target clean, validate, compile, tests, libaries runterladen)<br>
 - [x] WICHTIG! Avatarbild Comic z.B. und Pom befüllen mit uns als Entwickler anderen raus löschen, jede Person soll sich selbst eintragen und Committen (1P)<br>
-- [ ] Adresse des Repository (1P)<br>
-- [ ] Auch mit mvm Compiler build starten um zu prüfen ob alle geht, also auch ohne intellJ<br>
+- [x] Adresse des Repository (1P)<br>
+- [x] Auch mit mvm Compiler build starten um zu prüfen ob alle geht, also auch ohne intellJ<br>
  
 ### Fehler finden
-- [ ] Selbst implementieren: eine neue Implementierung die mit unterschiedlichen Klassen/Datentypen funktioniert also Generics dafür verwenden. <br>
-- [ ] Wir dürfen den Code auch wiederverwenden von den Dozenten nur wirklich separate Datei dafür nutzen und nicht vorhandene löschen also neue Klasse (2,5P) <br>
-- [ ] Code dabei immer nachvollziehbar kommentieren - JavaDoc <br>
+- [x] Selbst implementieren: eine neue Implementierung die mit unterschiedlichen Klassen/Datentypen funktioniert also Generics dafür verwenden. <br>
+- [x] Wir dürfen den Code auch wiederverwenden von den Dozenten nur wirklich separate Datei dafür nutzen und nicht vorhandene löschen also neue Klasse (2,5P) <br>
+- [x] Code dabei immer nachvollziehbar kommentieren - JavaDoc <br>
 
 ### Testen 
-- [ ] Hier ist wichtig das die vorhandene Implementierung mit 100% Testabdeckung funktioniert (2P)<br>
-- [ ] Dann noch eine Testklasse erstellen wo wir unsere Generics mit Strings auch mit 100% abdecken (3P)<br>
-- [ ] JavaDoc Kommentare was wir testen (1P)<br>
-- [ ] Zusätzliche Testfiles um die Generic zu testen mit einer anderen Klasse (2P)<br>
+- [x] Hier ist wichtig das die vorhandene Implementierung mit 100% Testabdeckung funktioniert (2P)<br>
+- [x] Dann noch eine Testklasse erstellen wo wir unsere Generics mit Strings auch mit 100% abdecken (3P)<br>
+- [x] JavaDoc Kommentare was wir testen (1P)<br>
+- [x] Zusätzliche Testfiles um die Generic zu testen mit einer anderen Klasse (2P)<br>
 
 ### Maven Site - Markdown Sprache 
-- [ ] Entwickler Infos <br>
-- [ ] JavaDoc als Maven Site Exortieren (1P)<br>
-- [ ] Manuell erstelle Inhalte aus als Site exportieren (was ist eine Queue und wie kann die getestet werden) <br>
-- [ ] Code Snipped oder Grafiken verwenden <br>
-- [ ] Mögliche Einsatzgebiete von Queues, was sind Generics, Was ist ein Code Coverade bei Source Code Tests?<br>
+- [x] Entwickler Infos <br>
+- [x] JavaDoc als Maven Site Exortieren (1P)<br>
+- [x] Manuell erstelle Inhalte aus als Site exportieren (was ist eine Queue und wie kann die getestet werden) <br>
+- [x] Code Snipped oder Grafiken verwenden <br>
+- [x] Mögliche Einsatzgebiete von Queues, was sind Generics, Was ist ein Code Coverade bei Source Code Tests?<br>
 
 ### LabReport erweitern
-- [ ] ergänzungen nachtragen welche fehler und wie behoben 
+- [x] ergänzungen nachtragen welche fehler und wie behoben 
 
 <p> <br>
 Welche Fehler haben wir nur gefunden?
+ - Pull Methode war falsch da sie leere Queues nicht richtig behandelt hat (!= statt ==)
+ - maxSize statt maxsize musste im Konstruktor angepasst werden
+ - remove setzt element auf leeren String "" dies wurde entfernt
 
 <br>
 Wie haben wir die Generics gemacht?
+Wir haben alle Fehler aus der vorhandenen Klasse korrigiert, indem wir Testfälle gemacht haben. 
+Wenn diese fehlgeschlagen sind, haben wir den Fehler mit debugg gesucht und geändert. 
+Danach haben wir diese Klasse kopiert, das Interface auf Generics umgebaut, die neue Klasse auch auf Generics umgebaut.
+Dann haben wir eine eigene Test Klasse gemacht mit Integer Werten statt String und diese auch auf 100% getestet. 
+Die Maven Site wurde generiert mit allen notwendigen Informationen, inkl. Fragen zu Generics. 
+
+Vielen Dank und viel spaß beim bewerten :)
+
 
 </p>
 
